@@ -1,0 +1,26 @@
+body{
+    font-family: Arial,sans-serif;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: aquamarine;
+}
+h1{
+    color:#333
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+form button{
+    padding:10px 15px;
+    margin-top: 10px;
+}
+
+#result{
+    margin-top:20px;
+}
+
