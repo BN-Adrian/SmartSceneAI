@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SmartSceneAI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="ui-page-container mx-auto">
+        <header class="ui-header text-center">
+            <h1 class="ui-title text-uppercase">SmartSceneAI</h1>
+        </header>
+        
+        <section class="ui-section">
+            <div class="ui-content-container">
+                <figure class="up-icon">
+                    <!-- imagine container -->
+                </figure>
+                <div class="ui-content">
+                    <h2 class="ui-page-title">Search for movie/serial</h2>
+                    
+                    <!-- upload button -->
+                    <form method="POST" enctype="multipart/form-data">
+                        <label for="fileUpload" class="custom-button">Upload</label>
+                        <input type="file" id="fileUpload" name="fileUpload">
+                        
+                        <!-- search input și buton -->
+                        <input type="text" name="searchInput" placeholder="Type here...">
+                        <button type="submit" id="searchButton">Search</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>

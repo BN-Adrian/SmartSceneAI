@@ -1,0 +1,48 @@
+body{
+    font-family: "Open Sans",Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    overflow: hidden;
+    background-color: #eeeeee;
+    color: #6C6D6E;
+}
+
+
+.ui-page-container{
+    max-width: 600px;
+    width:100%;
+    margin: 0 auto;
+}
+
+.ui-section{
+    margin-bottom: 155px;
+    position:relative;
+}
+
+.ui-content-container{
+    border-radius: 20px;
+    background-color: white;
+    padding: 30px;
+}
+
+.ui-content{
+    padding: 55px;
+}
+
+.ui-page-title{
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    color: #656667;
+}
+
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type="file"]{
+    display: none;
+}
